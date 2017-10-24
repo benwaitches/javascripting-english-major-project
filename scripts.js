@@ -1,9 +1,5 @@
-let turtlesWithSplinter, turtlesWithoutSplinter, reversedTurtlesWithoutSplinter;
-turtlesWithSplinter = ["Leonardo", "Donatello", "Raphael", "Michelangelo", "Splinter"];
-reversedTurtlesWithoutSplinter = turtlesWithSplinter.filter(function(turtle){
-  console.log(turtle);
-  return turtle !== "Splinter";
-}).reverse();
-//$("#response").html(reversedTurtlesWithoutSplinter);
-//reversedTurtlesWithoutSplinter = turtlesWithSplinter.pop().reverse();
-//$("#response").html(reversedTurtlesWithoutSplinter);
+$("#paragraph1").addClass("lead").addClass("burrito");
+
+//   this ).attr("paragraph1");
+//here I have given my paragraph an id, and then selected it using .attr
+//not sure what the error message means, but I've chosen to ignore it at this point
