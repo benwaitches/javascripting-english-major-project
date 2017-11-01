@@ -1,4 +1,4 @@
-$("#paragraph1").addClass("lead").addClass("burrito");
+$("#paragraph1").addClass("lead");
 
 //   this ).attr("paragraph1");
 //here I have given my paragraph an id, and then selected it using .attr
