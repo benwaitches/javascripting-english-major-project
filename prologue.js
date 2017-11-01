@@ -8,9 +8,15 @@ line1.forEach(function(word){
   let wordString;
   wordString = word.text;
   if (word.modern){
-    wordString = "<a href='#'>" + wordString + "</a>";
+    wordString = "<a href='#' data-modern='" + word.modern + "'>" + wordString + "</a>";
   }
   line1Text = line1Text + wordString + " ";
 });
 line1Text = line1Text + "<br />(line 2 would go here)</p></blockquote>";
 $("#prologue").html("<p>" + line1Text + "<br /></p>");
+$("#prologue a").click(function(){
+  let glossText, clickedWord;
+  clickedWord = $( this ).text();
+  glossText = "<h2>You clicked on the word: " + clickedWord + "</h2>";
+  $("#glosses").html(glossText);
+});
