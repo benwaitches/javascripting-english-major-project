@@ -1,0 +1,44 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "A":"name",
+    "D":"description of physical qualities?",
+    "E":"wikipedia",
+    "F":"pg number"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.48557440000001,50.900999 ]
+    },
+    "properties": {
+    "A":"Brussels Airport",
+    "D":"",
+    "E":"https://en.wikipedia.org/wiki/Brussels_Airport",
+    "F":"86-96"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 73.7781390999999,40.6413111 ]
+    },
+    "properties": {
+    "A":"JFK Airport",
+    "D":"",
+    "E":"https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport",
+    "F":"86"
+    }
+  }
+]
+}
