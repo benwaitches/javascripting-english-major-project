@@ -6,3 +6,14 @@ tileLayer = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/ligh
               maxZoom: 18
             }).addTo(map);
 map.setView([40.730833, -73.9975], 16);
+
+let md;
+md = window.markdownit({html: true}).use(window.markdownitFootnote);
+$.ajax({
+  url: "https://benwaitches.github.io/javascripting-english-major-project/introduction.md",
+  success: function(markdown){
+    let html;
+    html = md.render(markdown);
+    $("#content").html(html);
+  }
+});
