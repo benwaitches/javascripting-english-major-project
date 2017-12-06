@@ -2,7 +2,7 @@ let md;
 md = window.markdownit({html: true}).use(window.markdownitFootnote);
 ["introduction"].forEach(function(tab){
   $.ajax({
-    url: "https://benwaitches.github.io/javascripting-english-major.org/final-project.html/" + tab + ".md",
+    url: "https://benwaitches.github.io/javascripting-english-major-project/final-project.html" + tab + ".md",
     success: function(markdown){
       let html;
       html = md.render(markdown);
