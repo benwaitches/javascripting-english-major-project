@@ -1,10 +1,8 @@
 let md;
 md = window.markdownit({html: true}).use(window.markdownitFootnote);
-["hastings-street", "eighteenth-and-vine",
-  "fifth-and-mound", "introduction",
-  "lenox-avenue", "rampart"].forEach(function(tab){
+["introduction"].forEach(function(tab){
   $.ajax({
-    url: "http://the-javascripting-english-major.org/examples/markdown/" + tab + ".md",
+    url: "https://benwaitches.github.io/javascripting-english-major.org/final-project.html/" + tab + ".md",
     success: function(markdown){
       let html;
       html = md.render(markdown);
