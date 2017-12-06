@@ -28,3 +28,17 @@ $.getJSON("https://the-javascripting-english-major.org/could-be.geo.json", funct
   map.fitBounds(couldBeLayer.getBounds());
   map.zoomOut(1);
 });
+let md;
+md = window.markdownit({html: true}).use(window.markdownitFootnote);
+["hastings-street", "eighteenth-and-vine",
+  "fifth-and-mound", "introduction",
+  "lenox-avenue", "rampart"].forEach(function(tab){
+  $.ajax({
+    url: "https://benwaitches.github.io/javascripting-english-major-project/" + tab + ".md",
+    success: function(markdown){
+      let html;
+      html = md.render(markdown);
+      $("#" + tab).html(html);
+    }
+  });
+});

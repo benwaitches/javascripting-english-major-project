@@ -1,12 +1,16 @@
 let md;
 md = window.markdownit({html: true}).use(window.markdownitFootnote);
-$.ajax({
-  url: "https://benwaitches.github.io/javascripting-english-major-project/introduction.md",
-  success: function(markdown){
-    let html;
-    html = md.render(markdown);
-    $("#content").html(html);
-  }
+["hastings-street", "eighteenth-and-vine",
+  "fifth-and-mound", "introduction",
+  "lenox-avenue", "rampart"].forEach(function(tab){
+  $.ajax({
+    url: "http://the-javascripting-english-major.org/examples/markdown/" + tab + ".md",
+    success: function(markdown){
+      let html;
+      html = md.render(markdown);
+      $("#" + tab).html(html);
+    }
+  });
 });
 let map, tileLayer;
 map = L.map("final-project-map");
