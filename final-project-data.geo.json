@@ -9,9 +9,9 @@
     },
     "properties": {
     "A":"name",
-    "D":"description of physical qualities?",
-    "E":"wikipedia",
-    "F":"pg number"
+    "B":"html",
+    "C":"tab",
+    "F":"wikipedia"
     }
   },
   {
@@ -22,9 +22,9 @@
     },
     "properties": {
     "A":"Brussels Airport",
-    "D":"",
-    "E":"https://en.wikipedia.org/wiki/Brussels_Airport",
-    "F":"86-96"
+    "B":"Brussels Airport",
+    "C":"brussels-airport",
+    "F":"https://en.wikipedia.org/wiki/Brussels_Airport"
     }
   },
   {
@@ -35,9 +35,35 @@
     },
     "properties": {
     "A":"JFK Airport",
-    "D":"",
-    "E":"https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport",
-    "F":"86"
+    "B":"JFK Airport",
+    "C":"",
+    "F":"https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.375933,50.842588 ]
+    },
+    "properties": {
+    "A":"The Internet and Telephone Shop",
+    "B":"The Internet and Telephone Shop",
+    "C":"internet-shop",
+    "F":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.356854,50.840602 ]
+    },
+    "properties": {
+    "A":"Cafe in Grand Sablon",
+    "B":"Cafe in Grand Sablon",
+    "C":"cafe-grand-sablon",
+    "F":"https://en.wikipedia.org/wiki/Sablon_(Brussels)"
     }
   }
 ]
