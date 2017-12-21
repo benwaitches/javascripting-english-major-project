@@ -11,7 +11,8 @@
     "name":"Brussels Airport",
     "html":"Brussels Airport",
     "tab":"brussels-airport",
-    "wikipedia":"https://en.wikipedia.org/wiki/Brussels_Airport"
+    "wikipedia":"https://en.wikipedia.org/wiki/Brussels_Airport",
+    "sister loc":"JFK Airport"
     }
   },
   {
@@ -24,7 +25,8 @@
     "name":"The Internet and Telephone Shop",
     "html":"The Internet and Telephone Shop",
     "tab":"internet-shop",
-    "wikipedia":""
+    "wikipedia":"",
+    "sister loc":"Waypoint Cafe"
     }
   },
   {
@@ -37,7 +39,8 @@
     "name":"Cafe in Grand Sablon",
     "html":"Cafe in Grand Sablon",
     "tab":"cafe-grand-sablon",
-    "wikipedia":"https://en.wikipedia.org/wiki/Sablon_(Brussels)"
+    "wikipedia":"https://en.wikipedia.org/wiki/Sablon_(Brussels)",
+    "sister loc":"Archway Cafe"
     }
   }
 ]

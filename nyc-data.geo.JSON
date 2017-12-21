@@ -1,0 +1,47 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.7781390999999,40.6413111 ]
+    },
+    "properties": {
+    "name":"JFK Airport",
+    "html":"JFK Airport",
+    "tab":"jfk",
+    "wikipedia":"https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport",
+    "sister loc":"Brussels Airport"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.990008,40.71735 ]
+    },
+    "properties": {
+    "name":"Waypoint Cafe",
+    "html":"Waypoint Cafe",
+    "tab":"waypoint-cafe",
+    "wikipedia":"",
+    "sister loc":"The Internet and Telephone Shop"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.987453,40.702912 ]
+    },
+    "properties": {
+    "name":"Archway Cafe",
+    "html":"Archway Cafe",
+    "tab":"archway-cafe",
+    "wikipedia":"",
+    "sister loc":"Cafe in Grand Sablon"
+    }
+  }
+]
+}
