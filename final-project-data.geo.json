@@ -5,26 +5,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
-    },
-    "properties": {
-    "A":"name",
-    "B":"html",
-    "C":"tab",
-    "F":"wikipedia"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 4.48557440000001,50.900999 ]
     },
     "properties": {
-    "A":"Brussels Airport",
-    "B":"Brussels Airport",
-    "C":"brussels-airport",
-    "F":"https://en.wikipedia.org/wiki/Brussels_Airport"
+    "name":"Brussels Airport",
+    "html":"Brussels Airport",
+    "tab":"brussels-airport",
+    "wikipedia":"https://en.wikipedia.org/wiki/Brussels_Airport"
     }
   },
   {
@@ -34,10 +21,10 @@
        "coordinates":  [ 73.7781390999999,40.6413111 ]
     },
     "properties": {
-    "A":"JFK Airport",
-    "B":"JFK Airport",
-    "C":"",
-    "F":"https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport"
+    "name":"JFK Airport",
+    "html":"JFK Airport",
+    "tab":"",
+    "wikipedia":"https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport"
     }
   },
   {
@@ -47,10 +34,10 @@
        "coordinates":  [ 4.375933,50.842588 ]
     },
     "properties": {
-    "A":"The Internet and Telephone Shop",
-    "B":"The Internet and Telephone Shop",
-    "C":"internet-shop",
-    "F":""
+    "name":"The Internet and Telephone Shop",
+    "html":"The Internet and Telephone Shop",
+    "tab":"internet-shop",
+    "wikipedia":""
     }
   },
   {
@@ -60,10 +47,10 @@
        "coordinates":  [ 4.356854,50.840602 ]
     },
     "properties": {
-    "A":"Cafe in Grand Sablon",
-    "B":"Cafe in Grand Sablon",
-    "C":"cafe-grand-sablon",
-    "F":"https://en.wikipedia.org/wiki/Sablon_(Brussels)"
+    "name":"Cafe in Grand Sablon",
+    "html":"Cafe in Grand Sablon",
+    "tab":"cafe-grand-sablon",
+    "wikipedia":"https://en.wikipedia.org/wiki/Sablon_(Brussels)"
     }
   }
 ]
