@@ -18,19 +18,6 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 73.7781390999999,40.6413111 ]
-    },
-    "properties": {
-    "name":"JFK Airport",
-    "html":"JFK Airport",
-    "tab":"",
-    "wikipedia":"https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 4.375933,50.842588 ]
     },
     "properties": {
